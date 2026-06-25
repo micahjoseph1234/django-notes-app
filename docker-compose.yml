@@ -52,5 +52,10 @@ services:
     networks:
       - notes-app-nw
 
+  web:
+    image:"micahjoseph123/notes-app:latest"
+    ports :
+        - "8000:8000"  
+
 networks:
   notes-app-nw:
